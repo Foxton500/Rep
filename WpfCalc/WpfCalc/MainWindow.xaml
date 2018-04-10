@@ -1,0 +1,41 @@
+﻿<Window x:Name="MainWindow1" x:Class="WpfCalc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfCalc"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="314.019" Width="405.062">
+    <Grid>
+        <Button x:Name="Btn1" Content="1" Margin="10,60,0,0" RenderTransformOrigin="0.505,0.528" Click="Btn1_Click_1" Width="50" Height="50" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Button x:Name="btn2" Content="2" HorizontalAlignment="Left" Margin="65,60,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btn2_Click_1"/>
+        <Button x:Name="btn3" Content="3" HorizontalAlignment="Left" Margin="120,60,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btn3_Click_1"/>
+        <Button x:Name="btn4" Content="4" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btn4_Click_1"/>
+        <Button x:Name="btn5" Content="5" HorizontalAlignment="Left" Margin="65,115,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btn5_Click_1"/>
+        <Button x:Name="btn6" Content="6" HorizontalAlignment="Left" Margin="120,115,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btn6_Click_1"/>
+        <Button x:Name="btn7" Content="7" HorizontalAlignment="Left" Margin="10,170,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btn7_Click_1"/>
+        <Button x:Name="btn8" Content="8" HorizontalAlignment="Left" Margin="65,170,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btn8_Click_1"/>
+        <Button x:Name="btn9" Content="9" HorizontalAlignment="Left" Margin="120,170,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btn9_Click_1"/>
+        <Button x:Name="btn0" Content="0" HorizontalAlignment="Left" Margin="10,225,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btn0_Click_1"/>
+        <Button x:Name="btnComma" Content="," HorizontalAlignment="Left" Margin="65,225,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btnComma_Click_1"/>
+        <Button x:Name="btnCalculate" Content="=" HorizontalAlignment="Left" Margin="120,225,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btnCalculate_Click_1"/>
+        <Button x:Name="btnClearAll" Content="C" HorizontalAlignment="Left" Margin="230,60,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btnClearAll_Click_1"/>
+        <Button x:Name="btnClearLast" Content="CE" HorizontalAlignment="Left" Margin="230,115,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btnClearLast_Click_1"/>
+        <Button x:Name="btnClearLastSymbol" Content="&lt;-" HorizontalAlignment="Left" Margin="230,170,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btnClearLastSymbol_Click_1"/>
+        <Button x:Name="btnSign" Content="+/-" HorizontalAlignment="Left" Margin="230,225,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btnSign_Click_1"/>
+        <Button x:Name="btnPercent" Content="%" HorizontalAlignment="Left" Margin="285,60,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btnPercent_Click_1"/>
+        <Button x:Name="btnPow" Content="^" HorizontalAlignment="Left" Margin="285,115,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btnPow_Click_1"/>
+        <Button x:Name="btnSquareRoot" Content="√a" HorizontalAlignment="Left" Margin="285,170,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btnSquareRoot_Click_1"/>
+        <Button x:Name="btnReverse" Content="1/a" HorizontalAlignment="Left" Margin="285,225,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btnReverse_Click_1"/>
+        <Button x:Name="btnMemory" Content="M" HorizontalAlignment="Left" Margin="340,60,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btnMemory_Click_1"/>
+        <Button x:Name="btnMemoryPlus" Content="M+" HorizontalAlignment="Left" Margin="340,115,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btnMemoryPlus_Click_1"/>
+        <Button x:Name="btnMemoryMinus" Content="M-" HorizontalAlignment="Left" Margin="340,170,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btnMemoryMinus_Click_1"/>
+        <Button x:Name="btnMemoryClear" Content="MC" HorizontalAlignment="Left" Margin="340,225,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btnMemoryClear_Click_1"/>
+        <Button x:Name="BtnPlus" Content="+" HorizontalAlignment="Left" Margin="175,60,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btnPlus_Click_1"/>
+        <Button x:Name="BtnMinus" Content="-" HorizontalAlignment="Left" Margin="175,115,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btnMinus_Click_1"/>
+        <Button x:Name="BtnUmn" Content="*" HorizontalAlignment="Left" Margin="175,170,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btnUmn_Click_1"/>
+        <Button x:Name="BtnRaz" Content="/" HorizontalAlignment="Left" Margin="175,225,0,0" VerticalAlignment="Top" Width="50" Height="50" Click="btnRaz_Click_1"/>
+        <TextBox x:Name="Display" Margin="10,10,0,0" TextWrapping="Wrap" HorizontalContentAlignment="Right" FontSize="36" AllowDrop="True" IsReadOnly="True" Text="0" Height="45" VerticalAlignment="Top" HorizontalAlignment="Left" Width="377"/>
+
+    </Grid>
+</Window>
